@@ -1,12 +1,12 @@
 # Software Developer
 
-### Work Experience
+## Work Experience
 lorem ipsum
 
-### Education
+## Education
 Master Computer Science and Communication Studies
 
-### Projects
+## Projects
 AI tests
 
-### Voluntering
+## Voluntering
