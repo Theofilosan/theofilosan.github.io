@@ -6,7 +6,9 @@
 - Student Assistant at DevOps team:
  ▪   Create and optimize CI/CD pipelines, ensuring seamless, deployment and integration  
     of software services
+
  ▪   Assisted in resolving errors & problems using NodeJS, JavaScript and TypeScript.
+
  ▪   Gained hands-on experience in various tools and techs used in DevOps environment
  
 ## Education
