@@ -1,7 +1,8 @@
 # Software Developer
 
 ## Work Experience
-### Jr Associate Specialist  Aug 2022 - Aug 2023
+![INVIXO](assets/img/invixo_consulting_group_a_s_logo.jpg)
+###  Jr Associate Specialist  Aug 2022 - Aug 2023
 #### INVIXO Consulting Group  Copenhagen, Denmark
  Student Assistant at DevOps team:
   
