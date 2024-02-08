@@ -2,8 +2,8 @@
 
 ## Work Experience
 ### Jr Associate Specialist  Aug 2022 - Aug 2023
- INVIXO Consulting Group  Copenhagen, Denmark
- Student Assistant at DevOps team:
+#### INVIXO Consulting Group  Copenhagen, Denmark
+- Student Assistant at DevOps team:
  ▪   Create and optimize CI/CD pipelines, ensuring seamless, deployment and integration  
     of software services
  ▪   Assisted in resolving errors & problems using NodeJS, JavaScript and TypeScript.
