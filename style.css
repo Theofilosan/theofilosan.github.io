@@ -1,0 +1,88 @@
+body {
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #1a1a1a;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 15px rgba(0, 160, 160, 0.2);
+    border: 1px solid #00a0a0;
+}
+
+.left-column {
+    width: 35%;
+    padding: 20px;
+    background-color: #242424;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00a0a0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #00a0a0;
+    border-bottom: 2px solid #00a0a0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .education {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #00e0e0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px #00e0e0;
+}
+
+.profile-pic-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00a0a0;
+    box-shadow: 0 0 15px rgba(0, 160, 160, 0.5);
+}
+
+/* Animation Styles */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
