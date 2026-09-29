@@ -3,137 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theofylaktos Anastasiadis - Platform, Cloud &amp; DevOps Engineer</title>
+    <meta name="theme-color" content="#080a12">
+    <meta name="description" content="Theofylaktos Anastasiadis is a Copenhagen-based platform, cloud and DevOps engineer working with Terraform, Azure, AWS and CI/CD.">
+    <title>Theofylaktos Anastasiadis | Platform, Cloud &amp; DevOps Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header class="hero-section">
-        <div class="hero-content">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-            <h1 class="hero-title" data-text="Theofylaktos Anastasiadis"><span>Theofylaktos Anastasiadis</span></h1>
-            <p class="hero-subtitle">Platform, Cloud & DevOps Engineer</p>
-            <p class="hero-statement">I build Terraform and CI/CD tooling that helps teams provision cloud resources through pull requests.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="cta-button">Get In Touch</a>
-                <a href="cv.pdf" download="Theofylaktos_Anastasiadis_CV.pdf" class="cta-button secondary">Download CV</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Main navigation">
+            <a class="wordmark" href="#top" aria-label="Theofylaktos Anastasiadis, back to top"><span class="wordmark-icon" aria-hidden="true">&gt;_</span> TA<span class="wordmark-dot">.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
             </div>
-        </div>
+        </nav>
+        <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
     </header>
+    <div class="level-hud" aria-live="off" aria-label="Page exploration progress"><span class="hud-icon" aria-hidden="true">◆</span> <span id="level-label">LEVEL 01 / START</span><span class="hud-divider" aria-hidden="true">|</span><span id="xp-label">0 XP</span></div>
 
-    <main>
-        <section id="about" class="content-section fade-in-section">
-            <h2>About Me</h2>
-            <p>I am a Copenhagen-based platform and cloud engineer. At Novo Nordisk, I worked on Azure infrastructure with Terraform, built GitHub Actions pipelines, and automated pull-request-triggered provisioning for data landing zones.</p>
+    <main id="main">
+        <section class="hero-section" id="top" aria-labelledby="hero-heading">
+            <div class="hero-glow" aria-hidden="true"></div><div class="hero-grid" aria-hidden="true"></div>
+            <div class="hero-content page-width">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="signal" aria-hidden="true"></span> PLAYER 01 <span class="eyebrow-separator" aria-hidden="true">//</span> COPENHAGEN, DENMARK</p>
+                    <h1 id="hero-heading" class="hero-title" data-text="Theofylaktos Anastasiadis"><span>Theofylaktos Anastasiadis</span></h1>
+                    <p class="hero-subtitle">PLATFORM / CLOUD / DEVOPS ENGINEER</p>
+                    <p class="hero-statement">I'm Theofylaktos, a platform and cloud engineer. I build Terraform and CI/CD tooling that helps teams provision cloud resources through pull requests.</p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="cta-button">Explore my work <span aria-hidden="true">→</span></a>
+                        <a href="cv.pdf" download="Theofylaktos_Anastasiadis_CV.pdf" class="cta-button secondary">Download CV <span aria-hidden="true">↓</span></a>
+                    </div>
+                </div>
+                <div class="hero-portrait"><div class="portrait-frame"><img src="profile.jpg" alt="Portrait of Theofylaktos Anastasiadis" width="300" height="300"></div><span class="portrait-tag">CLASS: PLATFORM ENGINEER</span></div>
+            </div>
+            <div class="hero-foot page-width"><span>↓ SCROLL TO LEVEL UP</span><span class="hero-foot-rule" aria-hidden="true"></span><span>01 / 06</span></div>
         </section>
 
-        <section id="skills" class="content-section fade-in-section">
-            <h2>Core Skills</h2>
+        <section id="about" class="content-section page-width" aria-labelledby="about-heading">
+            <div class="section-intro"><p class="section-index">LEVEL 02 / ABOUT</p><h2 id="about-heading">From infrastructure to <span class="muted-heading">developer experience.</span></h2></div>
+            <div class="about-layout"><p class="lead">I work where cloud infrastructure meets the people building on it.</p><div class="about-details"><p>At Novo Nordisk, I worked on shared AWS and Azure platform components, Terraform modules and GitHub Actions pipelines. My work also included pull-request-triggered provisioning for data landing zones and access components for Databricks.</p><p>I care about making infrastructure repeatable and easier for teams to use, not just getting it deployed.</p></div></div>
+        </section>
+
+        <section id="skills" class="content-section page-width" aria-labelledby="skills-heading">
+            <div class="section-intro"><p class="section-index">LEVEL 03 / TOOLKIT</p><h2 id="skills-heading">Tools of the <span class="muted-heading">trade.</span></h2></div>
             <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Cloud &amp; Platforms</h3>
-                    <p>Azure, AWS, Databricks, Docker</p>
-                </div>
-                <div class="skill-card">
-                    <h3>IaC &amp; Automation</h3>
-                    <p>Terraform, GitHub Actions, CI/CD</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Languages</h3>
-                    <p>C#, JavaScript, Python, SQL, Go</p>
-                </div>
-
+                <div class="skill-card"><span class="card-number">01</span><h3>Cloud &amp; data</h3><p>Azure · AWS · Databricks · Docker</p></div>
+                <div class="skill-card"><span class="card-number">02</span><h3>Infrastructure &amp; delivery</h3><p>Terraform · GitHub Actions · CI/CD</p></div>
+                <div class="skill-card"><span class="card-number">03</span><h3>Languages &amp; services</h3><p>C# · JavaScript · Python · SQL · Go · C/C++ · TypeScript · Node.js</p></div>
             </div>
         </section>
 
-        <section id="experience" class="content-section fade-in-section">
-            <h2>My Journey</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Cloud Software Engineer</h3>
-                        <p class="timeline-company">Novo Nordisk</p>
-                        <p class="timeline-date">April 2024 - Present</p>
-                        <ul>
-                            <li>Built and maintained shared cloud platform components across AWS and Azure.</li>
-                            <li>Engineered scalable IaC configurations with Terraform, ensuring Azure resource consistency across environments.</li>
-                            <li>Designed robust GitHub Actions pipelines for CI/CD, automating the validation and deployment of IaC changes.</li>
-                            <li>Automated service fulfillment triggered by Pull Requests, efficiently provisioning new data landing zones.</li>
-                            <li>Provisioned crucial access components, including Azure AD groups and service principals for Terraform and Databricks.</li>
-                            <li>Managed Azure Databricks catalogs and configured schemas for Bronze, Silver, and Gold data zones.</li>
-                            <li>Extended multi-cloud capabilities by automating AWS S3 connectivity for cross-cloud operations.</li>
-                            <li>Implemented stringent security policies and access controls to protect sensitive data environments.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Jr Associate Specialist</h3>
-                        <p class="timeline-company">INVIXO Consulting Group</p>
-                        <p class="timeline-date">Aug 2022 - Aug 2023</p>
-                        <ul>
-                            <li>Improved CI/CD pipelines and deployment workflows.</li>
-                            <li>Developed and debugged services using Node.js, TypeScript, and JavaScript.</li>
-                            <li>Gained hands-on experience with DevOps practices and cloud integrations.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>IT Support Technician</h3>
-                        <p class="timeline-company">eduACT Action for Education</p>
-                        <p class="timeline-date">Apr 2017 - July 2020</p>
-                        <ul>
-                            <li>Provided technical support and maintained internal IT systems.</li>
-                        </ul>
-                    </div>
-                </div>
-                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Intern on Hardware Department</h3>
-                        <p class="timeline-company">NET2GRID</p>
-                        <p class="timeline-date">Nov 2018 - Feb 2018</p>
-                        <ul>
-                            <li>Worked with embedded systems and developed data-parsing interface for smart using ESP32.</li>
-                        </ul>
-                    </div>
-                </div>
+        <section id="experience" class="content-section page-width" aria-labelledby="experience-heading">
+            <div class="section-intro"><p class="section-index">LEVEL 04 / EXPERIENCE</p><h2 id="experience-heading">Where I've <span class="muted-heading">worked.</span></h2></div>
+            <div class="experience-list">
+                <article class="experience-item"><div class="experience-meta"><p class="timeline-date">April 2024 - Oct 2025</p><p class="timeline-company">Novo Nordisk</p></div><div class="experience-body"><h3>Cloud Software Engineer</h3><ul><li>Built and maintained shared cloud platform components across AWS and Azure.</li><li>Developed Terraform configurations and GitHub Actions pipelines for repeatable infrastructure changes.</li><li>Automated pull-request-triggered provisioning for data landing zones, including access components for Terraform and Databricks.</li><li>Worked with Databricks catalogs and Bronze, Silver and Gold schemas, and automated AWS S3 connectivity.</li></ul></div></article>
+                <article class="experience-item"><div class="experience-meta"><p class="timeline-date">Aug 2022 - Aug 2023</p><p class="timeline-company">INVIXO Consulting Group</p></div><div class="experience-body"><h3>Jr Associate Specialist</h3><ul><li>Improved CI/CD pipelines and deployment workflows.</li><li>Developed and debugged Node.js, TypeScript and JavaScript services for internal tooling.</li></ul></div></article>
+                <article class="experience-item"><div class="experience-meta"><p class="timeline-date">Apr 2017 - July 2020</p><p class="timeline-company">eduACT Action for Education</p></div><div class="experience-body"><h3>IT Support Technician</h3><ul><li>Provided technical support and maintained internal IT systems, including network security, G Suite administration and hardware troubleshooting.</li></ul></div></article>
+                <article class="experience-item"><div class="experience-meta"><p class="timeline-date">Nov 2018 - Feb 2018</p><p class="timeline-company">NET2GRID</p></div><div class="experience-body"><h3>Hardware Department Intern</h3><p>Worked with embedded systems and an ESP32-based data-parsing interface.</p></div></article>
             </div>
         </section>
 
-        <section id="education" class="content-section fade-in-section">
-            <h2>Education</h2>
-             <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Master of Computer Science & Communication Studies</h3>
-                    <p>Roskilde University (2021 - 2023)</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Bachelor of Computer, Informatics and Telecommunications Engineering</h3>
-                    <p>International Hellenic University (2012 - 2020)</p>
-                </div>
+        <section id="work" class="content-section page-width" aria-labelledby="work-heading">
+            <div class="section-intro"><p class="section-index">LEVEL 05 / ACADEMIC WORK</p><h2 id="work-heading">Ideas made <span class="muted-heading">tangible.</span></h2><p class="section-note">Selected thesis work from my studies.</p></div>
+            <div class="work-grid">
+                <article class="work-card"><span class="work-type">MASTER'S THESIS / ROSKILDE UNIVERSITY</span><h3>AI for myocardial biopsy analysis</h3><p>Used TensorFlow and Python to explore cellular rejection prediction from myocardial biopsy analysis.</p><span class="work-tech">PYTHON <span aria-hidden="true">/</span> TENSORFLOW</span></article>
+                <article class="work-card"><span class="work-type">BACHELOR'S THESIS / INTERNATIONAL HELLENIC UNIVERSITY</span><h3>A 3D-printed robotic hand</h3><p>Designed and developed a robotic hand built with 3D printing and controlled with an Arduino Uno.</p><span class="work-tech">ARDUINO UNO <span aria-hidden="true">/</span> 3D PRINTING</span></article>
             </div>
         </section>
 
+        <section id="more" class="content-section page-width" aria-labelledby="more-heading">
+            <div class="section-intro"><p class="section-index">LEVEL 06 / MORE ABOUT ME</p><h2 id="more-heading">Beyond the <span class="muted-heading">day job.</span></h2></div>
+            <div class="more-grid"><div><h3>Education</h3><p><strong>Master of Computer Science &amp; Communication Studies</strong><br>Roskilde University · 2021-2023</p><p><strong>Bachelor of Computer, Informatics and Telecommunications Engineering</strong><br>International Hellenic University · 2012-2020</p></div><div><h3>Credentials &amp; community</h3><p>Boomi Associate Integration Developer<br>Solace Certified Solutions Consultant</p><p>Head referee, FIRST LEGO League Greece (2018-2020); referee, FIRST LEGO League Hungary (2018).</p><p class="language-note">Languages: Greek (native), English (C1 certificate).</p></div></div>
+        </section>
     </main>
 
-    <footer id="contact" class="footer-section">
-        <h2>Contact Me</h2>
-        <p>Let's connect! I'm always open to discussing new projects and opportunities.</p>
-        <div class="contact-links">
-            <p><strong>Email:</strong> <a href="mailto:theofilosan@gmail.com">theofilosan@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/theophilos-anastasiadis" target="_blank">linkedin.com/in/theophilos-anastasiadis</a></p>
-
-        </div>
-    </footer>
-
-
+    <footer id="contact" class="footer-section"><div class="page-width footer-inner"><p class="section-index">LEVEL 07 / CONTACT</p><h2>Have a challenge in mind?<br><span>Let's talk.</span></h2><a class="cta-button" href="mailto:theofilosan@gmail.com">Email me <span aria-hidden="true">↗</span></a><div class="footer-bottom"><span>THEOFYLAKTOS ANASTASIADIS</span><a href="https://www.linkedin.com/in/theophilos-anastasiadis" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="#top">Back to top ↑</a></div></div></footer>
+    <script src="level.js" defer></script>
 </body>
 </html>
