@@ -111,7 +111,6 @@ h1, h2, h3 {
     margin: 20px auto;
     font-size: 1em;
     color: var(--text-color-dark);
-    min-height: 100px; /* Reserve space for typewriter */
 }
 
 .hero-buttons {
@@ -293,14 +292,16 @@ main {
 }
 
 
-/* --- Animation Styles --- */
-.fade-in-section {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
+/* Keep the heading readable for people who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+    .hero-title,
+    .hero-title::before,
+    .hero-title::after {
+        animation: none;
+    }
 
-.fade-in-section.is-visible {
-    opacity: 1;
-    transform: translateY(0);
+    .hero-title::before,
+    .hero-title::after {
+        content: none;
+    }
 }
