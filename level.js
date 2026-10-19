@@ -4,6 +4,7 @@ const chapters = [
     ['about', 'ABOUT'],
     ['skills', 'TOOLKIT'],
     ['experience', 'EXPERIENCE'],
+    ['projects', 'PROJECTS'],
     ['work', 'WORK'],
     ['more', 'MORE'],
     ['contact', 'CONTACT']
