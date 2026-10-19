@@ -1,0 +1,26 @@
+/* Scroll mascot: a thin strip along the bottom edge with a small walking turtle. */
+body { padding-bottom: 34px; }
+.level-hud { bottom: 44px; }
+.mascot-strip { position: fixed; left: 0; right: 0; bottom: 0; height: 34px; z-index: 14; pointer-events: none; }
+.mascot-line { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: repeating-linear-gradient(to right, var(--green) 0 6px, transparent 6px 10px); opacity: .45; }
+.mascot-walker { position: absolute; left: 0; bottom: 3px; width: 32px; height: 26px; will-change: transform; }
+.mascot-hop { width: 32px; height: 26px; }
+.mascot-frame { position: absolute; left: 0; top: 0; image-rendering: pixelated; }
+.mascot-frame-1 { display: none; }
+.mascot-walker.is-back .mascot-hop { transform: scaleX(-1); }
+.mascot-walker.is-walking .mascot-frame-0 { animation: mascot-step-a .32s steps(1) infinite; }
+.mascot-walker.is-walking .mascot-frame-1 { display: block; animation: mascot-step-b .32s steps(1) infinite; }
+.mascot-hop.go { animation: mascot-hop .5s ease-out; }
+.mascot-walker.is-back .mascot-hop.go { animation-name: mascot-hop-back; }
+.mascot-coin { position: absolute; left: 8px; bottom: 26px; font: 700 11px/1 'IBM Plex Mono', monospace; color: #ffd95e; opacity: 0; }
+.mascot-coin.go { animation: mascot-coin .8s ease-out; }
+@keyframes mascot-step-a { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes mascot-step-b { 0%, 49% { opacity: 0; } 50%, 100% { opacity: 1; } }
+@keyframes mascot-hop { 0%, 100% { transform: translateY(0); } 40% { transform: translateY(-18px); } }
+@keyframes mascot-hop-back { 0%, 100% { transform: scaleX(-1) translateY(0); } 40% { transform: scaleX(-1) translateY(-18px); } }
+@keyframes mascot-coin { 0% { opacity: 0; transform: translateY(0); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(-24px); } }
+@media (max-width: 650px) { body { padding-bottom: 30px; } .mascot-strip { height: 30px; } .level-hud { bottom: 40px; right: 12px; } }
+@media (prefers-reduced-motion: reduce) {
+    .mascot-walker.is-walking .mascot-frame-0, .mascot-walker.is-walking .mascot-frame-1 { animation: none; }
+    .mascot-hop.go, .mascot-coin.go { animation: none; }
+}
